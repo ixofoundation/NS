@@ -16,5 +16,22 @@
             "description": "A blockchain account address within the Cosmos ecosystem for verification purposes.",
             "source": "https://w3c.github.io/dpv/2.0/dpv/#CryptographicMethods"
         }
+    },
+    "verificationRelationships": {
+        "Authentication": {
+            "description": "Mechanism to verify the identity of the DID subject."
+        },
+        "Assertion": {
+            "description": "Enables making verifiable claims about the DID subject."
+        },
+        "KeyAgreement": {
+            "description": "Facilitates secure communication by deriving shared secrets."
+        },
+        "CapabilityInvocation": {
+            "description": "Allows the DID subject to invoke capabilities associated with the DID."
+        },
+        "CapabilityDelegation": {
+            "description": "Permits the DID subject to delegate capabilities to another party."
+        }
     }
 }
