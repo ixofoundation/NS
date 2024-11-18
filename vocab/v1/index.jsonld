@@ -11,6 +11,7 @@
 		"geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
 		"geonames": "http://www.geonames.org/ontology#",
 		"location": "https://schema.org/location",
+		"linkedResource": "http://www.ontologydesignpatterns.org/ont/web/irw.owl#InformationResource",
 		"market": "http://purl.obolibrary.org/obo/ENVO_01000987",
 		"mechanism": "http://purl.obolibrary.org/obo/NCIT_C25343",
 		"methodology": "http://purl.obolibrary.org/obo/NCIT_C86572",
