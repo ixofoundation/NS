@@ -1,1 +1,66 @@
-
+{
+    "@context": [
+        {
+            "service": "https://w3c.github.io/dpv/2.0/dpv/#Service",
+            "type": "@type",
+            "@id": "@type",
+            "@version": 1.1
+        }
+    ],
+    "service": {
+        "authenticationService": {
+            "description": "A service that provides authentication mechanisms for verifying identity."
+        },
+        "blockSync": {
+            "description": "A service that synchronizes blockchain data across nodes."
+        },
+        "botService": {
+            "description": "A service operated by automated bots to perform specific tasks."
+        },
+        "cellNode": {
+            "description": "A decentralized infrastructure node providing storage or computation services."
+        },
+        "chainService": {
+            "description": "A service supporting blockchain-related operations such as transaction handling."
+        },
+        "cloudWorker": {
+            "description": "A cloud-based service that performs tasks on behalf of users or systems."
+        },
+        "credentialRegistry": {
+            "description": "A service for managing and verifying credentials."
+        },
+        "dataSource": {
+            "description": "A service that provides access to specific datasets or data streams."
+        },
+        "dax": {
+            "description": "A service for decentralized autonomous exchanges."
+        },
+        "exchange": {
+            "description": "A platform for exchanging digital assets or currencies."
+        },
+        "explorer": {
+            "description": "A service for exploring blockchain data and transactions."
+        },
+        "ipfs": {
+            "description": "A service utilizing the InterPlanetary File System for decentralized file storage."
+        },
+        "linkedDomain": {
+            "description": "A service linking to domains for additional context or functionality."
+        },
+        "matrixServer": {
+            "description": "A service for hosting and managing Matrix communication servers."
+        },
+        "messagingService": {
+            "description": "A service for sending and receiving messages in a secure or decentralized manner."
+        },
+        "oracleService": {
+            "description": "A service that provides external data to blockchain-based smart contracts."
+        },
+        "verifiableDisplaySource": {
+            "description": "A service for displaying verifiable data or credentials."
+        },
+        "webService": {
+            "description": "A generic web-based service accessible via standard internet protocols."
+        }
+    }
+}
