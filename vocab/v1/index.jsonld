@@ -32,6 +32,7 @@
 		"value": "https://schema.org/value",
 		"verifiableCredential": "https://www.w3.org/2018/credentials/v1",
 		"verificationMethods": "https://w3c.github.io/dpv/2.0/dpv/#CryptographicMethods",
+		"verificationRelationships": "https://www.w3.org/TR/did-core/#verification-relationships",
 		"vintage": "https://schema.org/dateCreated",
 		"xhtml": "http://www.w3.org/1999/xhtml#",
 		"xsd": "http://www.w3.org/2001/XMLSchema#"
