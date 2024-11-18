@@ -27,6 +27,7 @@
 		"reference": "https://schema.org/citation",
 		"registry": "https://schema.org/Registry",
 		"rsa": "http://www.w3.org/ns/auth/rsa#",
+		"service": "https://w3c.github.io/dpv/2.0/dpv/#Service"
 		"schema": "http://schema.org/",
 		"swrc": "http://swrc.ontoware.org/ontology#",
 		"text": "https://schema.org/Text",
