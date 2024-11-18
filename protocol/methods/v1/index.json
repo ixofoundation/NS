@@ -1,1 +1,20 @@
-{}
+{
+    "@context": [
+        {
+            "verificationMethod": "https://w3c.github.io/dpv/2.0/dpv/#CryptographicMethods",
+            "type": "@type",
+            "@id": "@type",
+            "@version": 1.1
+        }
+    ],
+    "verificationMethod": {
+        "EcdsaSecp256k1VerificationKey2019": {
+            "description": "A verification key using ECDSA with the secp256k1 curve, commonly used in blockchain systems.",
+            "source": "https://w3c.github.io/dpv/2.0/dpv/#CryptographicMethods"
+        },
+        "CosmosAccountAddress": {
+            "description": "A blockchain account address within the Cosmos ecosystem for verification purposes.",
+            "source": "https://w3c.github.io/dpv/2.0/dpv/#CryptographicMethods"
+        }
+    }
+}
