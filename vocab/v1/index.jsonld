@@ -25,7 +25,7 @@
 		"schema": "http://schema.org/",
 		"swrc": "http://swrc.ontoware.org/ontology#",
 		"text": "https://schema.org/Text",
-		"TokenMetadata": "https://schema.org/Property",
+		"tokenMetadata": "https://schema.org/Property",
 		"types": "http://rdfs.org/sioc/types#",
 		"undefined": "https://github.com/ixofoundation/ns/blob/main/undefined/v1/index.js",
 		"value": "https://schema.org/value",
