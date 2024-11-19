@@ -1,0 +1,126 @@
+{
+    "@context": [
+        {
+            "dao": "https://w3id.org/dao",
+            "type": "@type",
+            "@id": "@type",
+            "@version": 1.1
+        }
+    ],
+    "dao": {
+        "Index": {
+            "description": "A DAO focused on indexing and organizing information or data.",
+            "types": {
+                "DataIndexingDAO": {
+                    "description": "A DAO that indexes blockchain data for accessibility."
+                },
+                "ContentIndexingDAO": {
+                    "description": "A DAO for organizing and indexing content."
+                }
+            }
+        },
+        "Candidate": {
+            "description": "A DAO operating as a candidate in a competitive or electoral process."
+        },
+        "Market Relayer": {
+            "description": "A DAO facilitating market transactions and providing liquidity.",
+            "types": {
+                "OrderBookDAO": {
+                    "description": "A DAO managing decentralized order books."
+                },
+                "AMMRelayerDAO": {
+                    "description": "A DAO operating automated market makers (AMMs)."
+                }
+            }
+        },
+        "Investment": {
+            "description": "A DAO focused on managing investments and funding opportunities.",
+            "types": {
+                "VentureCapitalDAO": {
+                    "description": "A DAO for funding startups and early-stage companies."
+                },
+                "RealEstateInvestmentDAO": {
+                    "description": "A DAO investing in real estate projects."
+                }
+            }
+        },
+        "Citizen": {
+            "description": "A DAO representing or organizing citizens for governance or community projects."
+        },
+        "Business": {
+            "description": "A DAO operating as a business entity.",
+            "types": {
+                "For Profit": {
+                    "description": "A business-oriented DAO with profit-driven objectives."
+                },
+                "Enterprise": {
+                    "description": "A large-scale business DAO focused on operational efficiency."
+                },
+                "Non Profit Organisation": {
+                    "description": "A business-oriented DAO focused on achieving social or environmental objectives rather than profit."
+                },
+                "Non Government Organisation": {
+                    "description": "A DAO operating as a non-governmental entity to address social, cultural, or environmental issues."
+                },
+                "Lichtenstein Joint Venture": {
+                    "description": "A DAO structured as a joint venture under Lichtenstein laws, allowing shared control and resources."
+                },
+                "Cooperative": {
+                    "description": "A DAO operating as a cooperative, owned and managed by its members for mutual benefit."
+                },
+                "Social Enterprise": {
+                    "description": "A DAO focused on addressing social challenges while maintaining financial sustainability."
+                },
+                "Public Benefit Corporation": {
+                    "description": "A DAO that operates as a public benefit corporation with a focus on public interest."
+                },
+                "Hybrid Organisation": {
+                    "description": "A DAO combining elements of profit and non-profit structures for diversified objectives."
+                }
+            }
+        },
+        "Friendship": {
+            "description": "A DAO formed to strengthen social bonds and mutual support among members."
+        },
+        "Community": {
+            "description": "A DAO centered around a specific community for collective action or resource sharing."
+        },
+        "Development Agency": {
+            "description": "A DAO focused on development projects and infrastructure building."
+        },
+        "Developer": {
+            "description": "A DAO supporting software developers and technical projects.",
+            "types": {
+                "Hackathon": {
+                    "description": "A DAO organizing and managing hackathons for innovation."
+                },
+                "Innovation": {
+                    "description": "A DAO fostering technological innovation."
+                }
+            }
+        },
+        "Funding": {
+            "description": "A DAO dedicated to allocating and managing funds for various purposes."
+        },
+        "Research": {
+            "description": "A DAO focused on conducting and supporting research activities."
+        },
+        "Sensor Network": {
+            "description": "A DAO managing and utilizing sensor networks for data collection and analysis."
+        },
+        "Startup": {
+            "description": "A DAO operating as a startup or supporting startups."
+        },
+        "Taskforce": {
+            "description": "A DAO assembled to address specific tasks or challenges."
+        },
+        "Chain": {
+            "description": "A DAO managing or operating a blockchain network.",
+            "types": {
+                "Validator": {
+                    "description": "A DAO serving as a validator within a blockchain network."
+                }
+            }
+        }
+    }
+}
