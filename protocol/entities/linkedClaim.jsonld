@@ -1,0 +1,60 @@
+{
+    "@context": [
+        {
+            "linkedClaim": "https://w3id.org/linkedClaim",
+            "type": "@type",
+            "@id": "@type",
+            "@version": 1.1
+        }
+    ],
+    "linkedClaim": {
+        "accreditation": {
+            "description": "A claim verifying that an entity meets certain standards or qualifications."
+        },
+        "compensation": {
+            "description": "A claim regarding the payment or recompense for services or damages."
+        },
+        "contribution": {
+            "description": "A claim about an entity's input or effort toward a project or cause."
+        },
+        "dispute": {
+            "description": "A claim involving a conflict or disagreement requiring resolution."
+        },
+        "identity": {
+            "description": "A claim verifying the identity of an individual or organization."
+        },
+        "impact": {
+            "description": "A claim detailing measurable changes or effects resulting from an action or project."
+        },
+        "investment": {
+            "description": "A claim about the allocation of resources with the expectation of a future return."
+        },
+        "invoice": {
+            "description": "A claim for payment for goods or services rendered."
+        },
+        "offset": {
+            "description": "A claim about the reduction or balancing of carbon emissions or environmental impact."
+        },
+        "outcome": {
+            "description": "A claim describing the results or outputs of an initiative or action."
+        },
+        "ownership": {
+            "description": "A claim about the ownership or control of an asset or resource."
+        },
+        "payment": {
+            "description": "A claim confirming the transfer of funds for goods or services."
+        },
+        "procurement": {
+            "description": "A claim about the acquisition of goods or services."
+        },
+        "provenance": {
+            "description": "A claim tracing the origin and history of an item or resource."
+        },
+        "service": {
+            "description": "A claim regarding the provision or use of a service."
+        },
+        "useOfFunds": {
+            "description": "A claim detailing how funds have been allocated or spent."
+        }
+    }
+}
