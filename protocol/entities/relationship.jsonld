@@ -1,0 +1,51 @@
+{
+    "@context": [
+        {
+            "entity": "https://w3id.org/entity",
+            "type": "@type",
+            "@id": "@type",
+            "@version": 1.1
+        }
+    ],
+    "entity": {
+        "asset": {
+            "description": "An item or resource of value that is owned or controlled."
+        },
+        "blockchainAccount": {
+            "description": "A digital account or wallet associated with a blockchain network."
+        },
+        "claimCollection": {
+            "description": "A collection of claims or assertions made about an entity."
+        },
+        "collection": {
+            "description": "A group of related items or entities gathered together."
+        },
+        "dao": {
+            "description": "A Decentralized Autonomous Organization operating through smart contracts."
+        },
+        "deed": {
+            "description": "A legal document representing ownership or an agreement."
+        },
+        "group": {
+            "description": "An aggregation of individuals or entities with a common purpose."
+        },
+        "individualAccount": {
+            "description": "A personal account for managing digital or financial resources."
+        },
+        "investment": {
+            "description": "An allocation of resources, typically capital, in expectation of a future return."
+        },
+        "oracle": {
+            "description": "A service providing external data to smart contracts or blockchain systems."
+        },
+        "project": {
+            "description": "A planned undertaking or initiative to achieve specific goals."
+        },
+        "protocol": {
+            "description": "A system of rules or procedures for transmitting data or interacting with systems."
+        },
+        "request": {
+            "description": "A solicitation or demand for action, information, or resources."
+        }
+    }
+}
