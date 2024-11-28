@@ -108,9 +108,6 @@
         "sensorNetwork": {
             "description": "A DAO managing and utilizing sensor networks for data collection and analysis."
         },
-        "startup": {
-            "description": "A DAO operating as a startup or supporting startups."
-        },
         "taskforce": {
             "description": "A DAO assembled to address specific tasks or challenges."
         },
