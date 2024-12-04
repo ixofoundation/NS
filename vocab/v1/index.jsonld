@@ -7,6 +7,7 @@
 		"certifier": "https://schema.org/issuedBy",
 		"capabilityDelegation": "https://www.w3.org/TR/did-core/#capability-delegation",
 		"capabilityInvocation":"https://www.w3.org/TR/did-core/#capability-invocation",
+		"country":"https://w3id.org/ixo/vocab/v1/countries"
 		"dbp": "http://dbpedia.org/property/",
 		"description": "https://schema.org/description",
 		"document": "https://schema.org/DigitalDocument",
