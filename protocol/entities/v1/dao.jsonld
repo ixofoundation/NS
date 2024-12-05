@@ -65,7 +65,7 @@
                 "lichtensteinJointVenture": {
                     "description": "A DAO structured as a joint venture under Lichtenstein laws, allowing shared control and resources."
                 },
-                "monGovernmentOrganisation": {
+                "nonGovernmentOrganisation": {
                     "description": "A DAO operating as a non-governmental entity to address social, cultural, or environmental issues."
                 },
                 "nonProfitOrganisation": {
