@@ -34,9 +34,6 @@
         },
         "protocol": {
             "description": "A system of rules or procedures for transmitting data or interacting with systems."
-        },
-        "request": {
-            "description": "A solicitation or demand for action, information, or resources."
         }
     }
 }
