@@ -8,6 +8,7 @@
         }
     ],
     "countries": {
+        "AA": {"description": "Global"},
         "AF": {"description": "Afghanistan"},
         "AL": {"description": "Albania"},
         "DZ": {"description": "Algeria"},
