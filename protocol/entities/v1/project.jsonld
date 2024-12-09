@@ -20,6 +20,9 @@
         "civicAction": {
             "description": "A project that engages citizens in collective efforts to address community or societal issues."
         },
+        "development": {
+            "description": "A project providing software development services, including design, implementation, testing, and maintenance of software solutions."
+        },
         "educationAndAwareness": {
             "description": "A project focused on educating and raising awareness about specific topics or issues."
         },
@@ -36,7 +39,13 @@
             "description": "A project involving the study, application, or enhancement of immune cell functions and interactions."
         },
         "mitigationActivity": {
-            "description": "A project aimed at reducing the severity or impact of specific risks or issues, such as climate change."
+            "description": "A project aimed at reducing the severity or impact of specific risks or issues, such as climate change.",
+            "mecs": {
+                "description": "A project promoting Modern Energy Cooking Services, designed to improve cooking efficiency and reduce reliance on traditional biomass fuels."
+            },
+            "solarPV": {
+                "description": "A project focusing on the implementation and use of solar photovoltaic systems to generate clean and renewable energy."
+            }
         },
         "oracle": {
             "description": "A project involving systems that provide data integrity, insights, or automation for decision-making processes."
@@ -52,4 +61,3 @@
         }
     }
 }
-
