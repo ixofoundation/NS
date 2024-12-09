@@ -1,1 +1,55 @@
+{
+    "@context": [
+        {
+            "project": "https://w3id.org/Project",
+            "type": "@type",
+            "@id": "@type",
+            "@version": 1.1
+        }
+    ],
+    "project": {
+        "accreditation": {
+            "description": "A project focused on certifying that an entity or individual meets specific standards or qualifications."
+        },
+        "behaviourChange": {
+            "description": "A project designed to influence and modify behaviors to achieve desired outcomes or impacts."
+        },
+        "circularEconomy": {
+            "description": "A project aimed at promoting resource efficiency, waste reduction, and sustainable economic practices."
+        },
+        "civicAction": {
+            "description": "A project that engages citizens in collective efforts to address community or societal issues."
+        },
+        "educationAndAwareness": {
+            "description": "A project focused on educating and raising awareness about specific topics or issues."
+        },
+        "environmentalMonitoring": {
+            "description": "A project that observes, collects, and analyzes data to assess environmental conditions and changes."
+        },
+        "esg": {
+            "description": "A project addressing Environmental, Social, and Governance factors to ensure sustainability and ethical impact."
+        },
+        "identity": {
+            "description": "A project related to establishing, managing, or verifying individual or organizational identities."
+        },
+        "immuneCell": {
+            "description": "A project involving the study, application, or enhancement of immune cell functions and interactions."
+        },
+        "mitigationActivity": {
+            "description": "A project aimed at reducing the severity or impact of specific risks or issues, such as climate change."
+        },
+        "oracle": {
+            "description": "A project involving systems that provide data integrity, insights, or automation for decision-making processes."
+        },
+        "relayer": {
+            "description": "A project focused on facilitating communication or transactions between different systems or networks."
+        },
+        "renewableEnergy": {
+            "description": "A project dedicated to the development, implementation, or promotion of sustainable energy sources."
+        },
+        "workPlacement": {
+            "description": "A project providing practical work experiences to individuals in professional environments."
+        }
+    }
+}
 
