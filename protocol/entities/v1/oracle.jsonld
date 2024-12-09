@@ -1,1 +1,69 @@
-
+{
+    "@context": [
+        {
+            "Oracle": "https://w3id.org/Oracle",
+            "type": "@type",
+            "@id": "@type",
+            "@version": 1.1
+        }
+    ],
+    "oracle": {
+        "proofing": {
+            "description": "Ensures data integrity and authenticity, validating claims and outcomes for transparent impact reporting.",
+            "zKProof": {
+                "description": "Zer-Knowledge-Proofs cryptographic techniques enabling one party to prove the truth of a statement to another without disclosing any additional information."
+            }
+        },
+        "personalisation": {
+            "description": "Tailors interactions and recommendations to individual users, enhancing user experience."
+        },
+        "payment": {
+            "description": "Automates payments based on impact goal achievements, using smart contracts to streamline transactions."
+        },
+        "problemDetectionAndResolution": {
+            "description": "Monitors systems for potential issues, enabling early detection and resolution."
+        },
+        "prescribingInterventions": {
+            "description": "Recommends actions based on data analysis to guide stakeholders towards effective strategies."
+        },
+        "planning": {
+            "description": "Supports strategic planning by predicting trends and resource needs."
+        },
+        "profiling": {
+            "description": "Creates detailed profiles of users and projects for accurate targeting of interventions."
+        },
+        "patternRecognition": {
+            "description": "Identifies patterns in data to inform decision-making and optimize strategies."
+        },
+        "privacyProtection": {
+            "description": "Safeguards sensitive information and ensures compliance with regulations."
+        },
+        "performanceMonitoring": {
+            "description": "Tracks project performance in real-time, providing feedback and analytics."
+        },
+        "preventionOfRisks": {
+            "description": "Anticipates and mitigates potential risks to keep projects on track."
+        },
+        "participationOfPeople": {
+            "description": "Involves human oversight in decision-making processes."
+        },
+        "policyEnforcement": {
+            "description": "Ensures compliance with policies and regulations, enforcing rules automatically."
+        },
+        "portfolioManagement": {
+            "description": "Manages and optimizes project portfolios for strategic goals."
+        },
+        "processOptimisation": {
+            "description": "Enhances operational efficiency by automating tasks and streamlining workflows."
+        },
+        "protocolAdherence": {
+            "description": "Ensures compliance with predefined protocols for consistency and reliability."
+        },
+        "pathfinding": {
+            "description": "Guides users through complex decision-making processes."
+        },
+        "positioning": {
+            "description": "Determines optimal placement of resources and interventions within the ecosystem."
+        }
+    }
+}
