@@ -1,0 +1,28 @@
+{
+    "@context": [
+        {
+            "Asset": "https://w3id.org/Asset",
+            "type": "@type",
+            "@id": "@type",
+            "@version": 1.1
+        }
+    ],
+    "asset": {
+        "coin": {
+            "description": "A digital or physical currency used as a medium of exchange, including cryptocurrencies."
+        },
+        "device": {
+            "description": "A physical or virtual tool or equipment used to perform specific tasks or functions."
+        },
+        "impactCredit": {
+            "description": "A unit representing verified environmental or social impact, such as carbon sequestration or community development outcomes."
+        },
+        "learnership": {
+            "description": "An asset representing a structured learning program that combines theoretical study with practical workplace experience."
+        },
+        "membershipAsset": {
+            "description": "An asset signifying membership rights or privileges within a group, organization, or service."
+        }
+    }
+}
+
