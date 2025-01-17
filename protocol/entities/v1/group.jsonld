@@ -1,0 +1,24 @@
+{
+    "@context": [
+        {
+            "group": "https://w3id.org/",
+            "type": "@type",
+            "@id": "@type",
+            "@version": 1.1
+        }
+    ],
+    "group": {
+        "memberBased": {
+            "description": "A group where governance rights and decision-making power are distributed among members based on their participation and contributions"
+        },
+        "multiSig": {
+            "description": "A group governed by multiple signature holders who must reach consensus for executing transactions and making organizational decisions"
+        },
+        "nativeTokenStakingGroup": {
+            "description": "A group where participants stake native tokens to gain voting rights and participate in governance, often receiving rewards for their stake"
+        },
+        "nftStakingGroup": {
+            "description": "A group where NFT holders can stake their tokens to participate in governance and receive benefits, combining digital asset ownership with decision-making rights"
+        }
+    }
+}
