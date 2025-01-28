@@ -32,7 +32,7 @@
         "impact": {
             "description": "A claim measuring and validating the social or environmental effects of specific actions",
             "types": {
-                "verifiedCleanCoking": {
+                "verifiedCleanCooking": {
                     "description": "A claim validating the implementation and impact of verified clean cooking solutions"
                 },
                 "verifiedEmissionsReduction": {
