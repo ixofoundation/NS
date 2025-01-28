@@ -15,7 +15,18 @@
             "description": "A deed that outlines a suggested plan or action for consideration and approval"
         },
         "request": {
-            "description": "A deed detailing an appeal or demand for something to be provided or done"
+            "description": "A deed detailing an appeal or demand for something to be provided or done",
+            "types": {
+                "environmentalSteward": {
+                    "description": "A request to serve as a protector and manager of environmental resources"
+                },
+                "facilitator": {
+                    "description": "A request to guide and enable processes or interactions between parties"
+                },
+                "workPlacement": {
+                    "description": "A request for practical work experience or professional training position"
+                }
+            }
         },
         "subscription": {
             "description": "A deed that signifies an agreement to receive or support something regularly, such as a service or membership"
