@@ -22,6 +22,9 @@
         "candidate": {
             "description": "A DAO operating as a candidate in a competitive or electoral process."
         },
+         "productDao": {
+            "description": "A DAO collaboratively develops, governs, and manages products through blockchain-based governance, transparent decision-making, and incentivized contributions from its members."
+        },
         "marketRelayer": {
             "description": "A DAO facilitating market transactions and providing liquidity.",
             "types": {
