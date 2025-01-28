@@ -8,53 +8,80 @@
         }
     ],
     "linkedClaim": {
-        "accreditation": {
-            "description": "A claim verifying that an entity meets certain standards or qualifications."
+       "accreditation": {
+            "description": "A claim verifying the official recognition, authorization, or certification status of an entity or process"
         },
-        "compensation": {
-            "description": "A claim regarding the payment or recompense for services or damages."
+        "compliance": {
+            "description": "A claim attesting to the adherence to specific regulatory, legal, or protocol requirements"
         },
         "contribution": {
-            "description": "A claim about an entity's input or effort toward a project or cause."
+            "description": "A claim documenting verified contributions to projects, initiatives, or common objectives"
+        },
+        "credential": {
+            "description": "A claim establishing the authenticity and validity of qualifications, permissions, or rights"
+        },
+        "credentialAudit": {
+            "description": "A claim documenting the systematic examination and verification of credential issuance and management processes"
         },
         "dispute": {
-            "description": "A claim involving a conflict or disagreement requiring resolution."
+            "description": "A claim documenting formal disagreements and their resolution processes"
         },
         "identity": {
-            "description": "A claim verifying the identity of an individual or organization."
+            "description": "A claim verifying the authentic identity attributes of an individual, organization, or entity"
         },
         "impact": {
-            "description": "A claim detailing measurable changes or effects resulting from an action or project."
+            "description": "A claim measuring and validating the social or environmental effects of specific actions",
+            "types": {
+                "verifiedCleanCooking": {
+                    "description": "A claim validating the implementation and impact of verified clean cooking solutions"
+                },
+                "verifiedEmissionsReduction": {
+                    "description": "A claim certifying the verified reduction of greenhouse gas emissions through specific projects"
+                }
+            }
         },
         "investment": {
-            "description": "A claim about the allocation of resources with the expectation of a future return."
+            "description": "A claim documenting investment activities, commitments, or outcomes in impact projects"
         },
         "invoice": {
-            "description": "A claim for payment for goods or services rendered."
+            "description": "A claim validating the authenticity and details of financial transactions or service provisions"
         },
         "offset": {
-            "description": "A claim about the reduction or balancing of carbon emissions or environmental impact."
+            "description": "A claim validating the compensation or neutralization of environmental impacts through verified actions"
         },
         "outcome": {
-            "description": "A claim describing the results or outputs of an initiative or action."
+            "description": "A claim documenting measured results or impacts of specific actions or initiatives",
+            "types": {
+                "carbonEmissionReduction": {
+                    "description": "A claim documenting verified reductions in carbon emissions through specific interventions"
+                },
+                "cleanCookingClaim": {
+                    "description": "A claim verifying the implementation and impact of clean cooking solutions"
+                }
+            }
         },
         "ownership": {
-            "description": "A claim about the ownership or control of an asset or resource."
-        },
-        "payment": {
-            "description": "A claim confirming the transfer of funds for goods or services."
+            "description": "A claim validating the rightful possession or control of assets, resources, or rights"
         },
         "procurement": {
-            "description": "A claim about the acquisition of goods or services."
+            "description": "A claim documenting the acquisition process and compliance with procurement standards",
+            "types": {
+                "fuelPurchase": {
+                    "description": "A claim verifying the purchase and sourcing of fuel products according to specified standards"
+                }
+            }
         },
         "provenance": {
-            "description": "A claim tracing the origin and history of an item or resource."
+            "description": "A claim establishing the origin, history, and chain of custody of assets or resources"
         },
         "service": {
-            "description": "A claim regarding the provision or use of a service."
+            "description": "A claim validating the delivery, quality, or completion of specific services"
+        },
+        "subscription": {
+            "description": "A claim validating the active subscription status and associated rights of a participant"
         },
         "useOfFunds": {
-            "description": "A claim detailing how funds have been allocated or spent."
+            "description": "A claim documenting the allocation and utilization of financial resources in accordance with specified purposes"
         }
     }
 }
