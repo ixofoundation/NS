@@ -11,7 +11,7 @@
         "asset": {
             "description": "A protocol governing the management, transfer, and ownership of assets."
         },
-        "collection": {
+        "assetCollection": {
             "description": "A protocol for organizing, managing, and interacting with collections of items or entities."
         },
         "dao": {
