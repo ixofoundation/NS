@@ -34,6 +34,9 @@
         },
         "protocol": {
             "description": "A system of rules or procedures for transmitting data or interacting with systems."
+        },
+         "request": {
+            "description": "A domain for initiating specific actions, queries, or transactions within a system, specifying required parameters, validation rules, and processing logic."
         }
     }
 }
