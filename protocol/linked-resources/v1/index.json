@@ -1,54 +1,69 @@
 {
-  "@context": [
-    {
-      "linkedResource": "http://www.ontologydesignpatterns.org/ont/web/irw.owl#InformationResource",
-      "type": "@type",
-      "@id": "@type",
-      "@version": 1.1
-    }
-  ],
-  "linkedResource": {
-    "ClaimSchema": {
-      "description": "A structured framework defining the format and content of claims."
-    },
-    "CredentialSchema": {
-      "description": "A structured framework defining the format and content of credentials."
-    },
-    "Document": {
-      "description": "A file composed primarily of text."
-    },
-    "Image": {
-      "description": "An image of the item. This can be a URL or a fully described ImageObject."
-    },
-    "LegalAgreement": {
-      "description": "A legally binding agreement"
-    },
-    "Lottie": {
-      "description": "Image or animation file"
-    },
-    "ProjectCredential": {
-      "description": "A digital certificate attesting to specific facts or achievements about a project."
-    },
-    "ProposalAction": {
-      "description": "A description of an action that is executed if the proposal is supported."
-    },
-    "SurveyTemplate": {
-      "description": "A predefined set of questions or forms used to collect data."
-    },
-    "Text": {
-      "description": "Text."
-    },
-    "TokenMetadata": {
-      "description": "Properties of the token"
-    },
-    "VerificationMethods": {
-      "description": "Methods used to authenticate or authorize interactions"
-    },
-    "VerifiableCredential": {
-      "description": "A digital certification or qualification, issued by an authoritative body, and utilizing cryptographic proofs for verification."
-    },
-    "WebDashboard": {
-      "description": "Information displayed in Graphic User Interfaces of Web Client applications"
+    "@context": [
+      {
+        "linkedResource": "http://www.ontologydesignpatterns.org/ont/web/irw.owl#InformationResource",
+        "type": "@type",
+        "@id": "@type",
+        "@version": 1.1
+      }
+    ],
+    "linkedResource": {
+      "ClaimSchema": {
+        "description": "A structured framework defining the format and content of claims."
+      },
+      "CredentialSchema": {
+        "description": "A structured framework defining the format and content of credentials."
+      },
+      "Document": {
+        "description": "A file composed primarily of text."
+      },
+      "Image": {
+        "description": "An image of the item. This can be a URL or a fully described ImageObject.",
+        "types": {
+          "icon": {
+            "description": "A small, simplified visual representation used for navigation, buttons, or status indicators."
+          },
+          "logo": {
+            "description": "A distinctive graphic mark or symbol used to identify a brand, organization, or project."
+          },
+          "profileImage": {
+            "description": "A representative image displayed on domain cards to provide visual identification of the domain."
+          },
+          "headerImage": {
+            "description": "A banner or hero image displayed at the top of the domain overview page to provide visual context."
+          }
+        }
+      },
+      "LegalAgreement": {
+        "description": "A legally binding agreement"
+      },
+      "Lottie": {
+        "description": "Image or animation file"
+      },
+      "ProjectCredential": {
+        "description": "A digital certificate attesting to specific facts or achievements about a project."
+      },
+      "ProposalAction": {
+        "description": "A description of an action that is executed if the proposal is supported."
+      },
+      "SurveyTemplate": {
+        "description": "A predefined set of questions or forms used to collect data."
+      },
+      "Text": {
+        "description": "Text."
+      },
+      "TokenMetadata": {
+        "description": "Properties of the token"
+      },
+      "VerificationMethods": {
+        "description": "Methods used to authenticate or authorize interactions"
+      },
+      "VerifiableCredential": {
+        "description": "A digital certification or qualification, issued by an authoritative body, and utilizing cryptographic proofs for verification."
+      },
+      "WebDashboard": {
+        "description": "Information displayed in Graphic User Interfaces of Web Client applications"
+      }
     }
   }
-}
+  
