@@ -11,13 +11,13 @@
       "ClaimSchema": {
         "description": "A structured framework defining the format and content of claims."
       },
-      "CredentialSchema": {
+      "credentialSchema": {
         "description": "A structured framework defining the format and content of credentials."
       },
-      "Document": {
+      "document": {
         "description": "A file composed primarily of text."
       },
-      "Image": {
+      "image": {
         "description": "An image of the item. This can be a URL or a fully described ImageObject.",
         "types": {
           "icon": {
@@ -34,34 +34,34 @@
           }
         }
       },
-      "LegalAgreement": {
+      "legalAgreement": {
         "description": "A legally binding agreement"
       },
-      "Lottie": {
+      "lottie": {
         "description": "Image or animation file"
       },
-      "ProjectCredential": {
+      "projectCredential": {
         "description": "A digital certificate attesting to specific facts or achievements about a project."
       },
-      "ProposalAction": {
+      "proposalAction": {
         "description": "A description of an action that is executed if the proposal is supported."
       },
-      "SurveyTemplate": {
+      "surveyTemplate": {
         "description": "A predefined set of questions or forms used to collect data."
       },
-      "Text": {
+      "text": {
         "description": "Text."
       },
-      "TokenMetadata": {
+      "tokenMetadata": {
         "description": "Properties of the token"
       },
-      "VerificationMethods": {
+      "verificationMethods": {
         "description": "Methods used to authenticate or authorize interactions"
       },
-      "VerifiableCredential": {
+      "verifiableCredential": {
         "description": "A digital certification or qualification, issued by an authoritative body, and utilizing cryptographic proofs for verification."
       },
-      "WebDashboard": {
+      "webDashboard": {
         "description": "Information displayed in Graphic User Interfaces of Web Client applications"
       }
     }
