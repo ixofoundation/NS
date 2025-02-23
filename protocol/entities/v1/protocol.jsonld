@@ -32,9 +32,6 @@
         "project": {
             "description": "A protocol for managing, tracking, and completing projects or initiatives."
         },
-        "request": {
-            "description": "A protocol for issuing, managing, and fulfilling requests for actions, information, or resources."
-        },
         "task": {
             "description": "A protocol for defining, assigning, and tracking tasks within a system."
         },
