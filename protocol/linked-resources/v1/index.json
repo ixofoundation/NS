@@ -8,6 +8,9 @@
       }
     ],
     "linkedResource": {
+      "bid": {
+        "description": "An application to participate in or contribute to another domain"
+      },
       "claimSchema": {
         "description": "A structured framework defining the format and content of claims."
       },
