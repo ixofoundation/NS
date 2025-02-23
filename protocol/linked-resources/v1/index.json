@@ -8,7 +8,7 @@
       }
     ],
     "linkedResource": {
-      "bid": {
+      "bidSchema": {
         "description": "An application to participate in or contribute to another domain"
       },
       "claimSchema": {
@@ -19,6 +19,9 @@
       },
       "document": {
         "description": "A file composed primarily of text."
+      },
+      "domainSettingsTemplate": {
+        "description": "A predefined set of forms used to create and update domain settings"
       },
       "image": {
         "description": "An image of the item. This can be a URL or a fully described ImageObject.",
