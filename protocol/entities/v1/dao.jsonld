@@ -14,7 +14,7 @@
                 "dataIndexingDAO": {
                     "description": "A DAO that indexes blockchain data for accessibility"
                 },
-                "dontentIndexingDAO": {
+                "contentIndexingDAO": {
                     "description": "A DAO for organizing and indexing content"
                 }
             }
