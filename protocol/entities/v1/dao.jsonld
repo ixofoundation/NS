@@ -8,45 +8,6 @@
         }
     ],
     "dao": {
-        "index": {
-            "description": "A DAO focused on indexing and organizing information or data",
-            "types": {
-                "dataIndexingDAO": {
-                    "description": "A DAO that indexes blockchain data for accessibility"
-                },
-                "contentIndexingDAO": {
-                    "description": "A DAO for organizing and indexing content"
-                }
-            }
-        },
-        "candidate": {
-            "description": "A DAO operating as a candidate in a competitive or electoral process"
-        },
-        "marketRelayer": {
-            "description": "A DAO facilitating market transactions and providing liquidity",
-            "types": {
-                "drderBookDAO": {
-                    "description": "A DAO managing decentralized order books"
-                },
-                "AMMRelayerDAO": {
-                    "description": "A DAO operating automated market makers (AMMs)"
-                }
-            }
-        },
-        "investment": {
-            "description": "A DAO focused on managing investments and funding opportunities",
-            "types": {
-                "ventureCapitalDAO": {
-                    "description": "A DAO for funding startups and early-stage companies"
-                },
-                "realEstateInvestmentDAO": {
-                    "description": "A DAO investing in real estate projects"
-                }
-            }
-        },
-        "citizen": {
-            "description": "A DAO representing or organizing citizens for governance or community projects"
-        },
         "business": {
             "description": "A DAO operating as a business entity",
             "types": {
@@ -79,14 +40,22 @@
                 }
             }
         },
-        "friendship": {
-            "description": "A DAO formed to strengthen social bonds and mutual support among members"
+        "candidate": {
+            "description": "A DAO operating as a candidate in a competitive or electoral process"
+        },
+        "chain": {
+            "description": "A DAO managing or operating a blockchain network",
+            "types": {
+                "validator": {
+                    "description": "A DAO serving as a validator within a blockchain network"
+                }
+            }
+        },
+        "citizen": {
+            "description": "A DAO representing or organizing citizens for governance or community projects"
         },
         "community": {
             "description": "A DAO centered around a specific community for collective action or resource sharing"
-        },
-        "developmentAgency": {
-            "description": "A DAO focused on development projects and infrastructure building"
         },
         "developer": {
             "description": "A DAO supporting software developers and technical projects",
@@ -99,8 +68,50 @@
                 }
             }
         },
+        "developmentAgency": {
+            "description": "A DAO focused on development projects and infrastructure building"
+        },
+        "friendship": {
+            "description": "A DAO formed to strengthen social bonds and mutual support among members"
+        },
         "funding": {
             "description": "A DAO dedicated to allocating and managing funds for various purposes"
+        },
+        "index": {
+            "description": "A DAO focused on indexing and organizing information or data",
+            "types": {
+                "contentIndexingDAO": {
+                    "description": "A DAO for organizing and indexing content"
+                },
+                "dataIndexingDAO": {
+                    "description": "A DAO that indexes blockchain data for accessibility"
+                }
+            }
+        },
+        "investment": {
+            "description": "A DAO focused on managing investments and funding opportunities",
+            "types": {
+                "realEstateInvestmentDAO": {
+                    "description": "A DAO investing in real estate projects"
+                },
+                "ventureCapitalDAO": {
+                    "description": "A DAO for funding startups and early-stage companies"
+                }
+            }
+        },
+        "marketRelayer": {
+            "description": "A DAO facilitating market transactions and providing liquidity",
+            "types": {
+                "AMMRelayerDAO": {
+                    "description": "A DAO operating automated market makers (AMMs)"
+                },
+                "orderBookDAO": {
+                    "description": "A DAO managing decentralized order books"
+                }
+            }
+        },
+        "product": {
+            "description": "A DAO focused on the development, management, and governance of a particular product or set of products"
         },
         "research": {
             "description": "A DAO focused on conducting and supporting research activities"
@@ -110,14 +121,6 @@
         },
         "taskforce": {
             "description": "A DAO assembled to address specific tasks or challenges"
-        },
-        "chain": {
-            "description": "A DAO managing or operating a blockchain network",
-            "types": {
-                "validator": {
-                    "description": "A DAO serving as a validator within a blockchain network"
-                }
-            }
         }
     }
 }
