@@ -11,10 +11,10 @@
         "index": {
             "description": "A DAO focused on indexing and organizing information or data",
             "types": {
-                "DataIndexingDAO": {
+                "dataIndexingDAO": {
                     "description": "A DAO that indexes blockchain data for accessibility"
                 },
-                "ContentIndexingDAO": {
+                "dontentIndexingDAO": {
                     "description": "A DAO for organizing and indexing content"
                 }
             }
@@ -25,7 +25,7 @@
         "marketRelayer": {
             "description": "A DAO facilitating market transactions and providing liquidity",
             "types": {
-                "OrderBookDAO": {
+                "drderBookDAO": {
                     "description": "A DAO managing decentralized order books"
                 },
                 "AMMRelayerDAO": {
