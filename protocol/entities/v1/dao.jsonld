@@ -80,10 +80,10 @@
         "index": {
             "description": "A DAO focused on indexing and organizing information or data",
             "types": {
-                "contentIndexingDAO": {
+                "contentIndexing": {
                     "description": "A DAO for organizing and indexing content"
                 },
-                "dataIndexingDAO": {
+                "dataIndexing": {
                     "description": "A DAO that indexes blockchain data for accessibility"
                 }
             }
@@ -91,10 +91,10 @@
         "investment": {
             "description": "A DAO focused on managing investments and funding opportunities",
             "types": {
-                "realEstateInvestmentDAO": {
+                "realEstateInvestment": {
                     "description": "A DAO investing in real estate projects"
                 },
-                "ventureCapitalDAO": {
+                "ventureCapital": {
                     "description": "A DAO for funding startups and early-stage companies"
                 }
             }
@@ -102,10 +102,10 @@
         "marketRelayer": {
             "description": "A DAO facilitating market transactions and providing liquidity",
             "types": {
-                "AMMRelayerDAO": {
+                "AMMRelayer": {
                     "description": "A DAO operating automated market makers (AMMs)"
                 },
-                "orderBookDAO": {
+                "orderBook": {
                     "description": "A DAO managing decentralized order books"
                 }
             }
