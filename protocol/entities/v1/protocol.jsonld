@@ -1,37 +1,13 @@
 {
     "@context": [
         {
-            "entities": "https://w3id.org/protocol",
+            "https://w3id.org/ixo/context/v1"
             "type": "@type",
             "@id": "@type",
             "@version": 1.1
         }
     ],
     "protocol": {
-        "asset": {
-            "description": "A protocol governing the management, transfer, and ownership of assets."
-        },
-        "assetCollection": {
-            "description": "A protocol for organizing, managing, and interacting with collections of items or entities."
-        },
-        "dao": {
-            "description": "A protocol for managing decentralized autonomous organizations through smart contracts."
-        },
-        "deed": {
-            "description": "A protocol for creating, managing agreements."
-        },
-        "group": {
-            "description": "A protocol for coordinating and managing groups of individuals or entities."
-        },
-        "investment": {
-            "description": "A protocol for facilitating and managing investments, including resource allocation and returns."
-        },
-        "oracle": {
-            "description": "A protocol for providing external, verified data to smart contracts or blockchain applications."
-        },
-        "project": {
-            "description": "A protocol for managing, tracking, and completing projects or initiatives."
-        },
         "task": {
             "description": "A protocol for defining, assigning, and tracking tasks within a system."
         },
