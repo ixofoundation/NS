@@ -17,16 +17,16 @@
                 "company": {
                     "description": "A legally registered business entity that operates for profit"
                 },
-                "hybridOrganisation": {
+                "hybridOrganization": {
                     "description": "A DAO combining elements of profit and non-profit structures for diversified objectives"
                 },
                 "liechtensteinJointVenture": {
                     "description": "A DAO structured as a joint venture under Lichtenstein laws, allowing shared control and resources"
                 },
-                "nonGovernmentOrganisation": {
+                "nonGovernmentOrganization": {
                     "description": "A DAO operating as a non-governmental entity to address social, cultural, or environmental issues"
                 },
-                "nonProfitOrganisation": {
+                "nonProfitOrganization": {
                     "description": "A business-oriented DAO focused on achieving social or environmental objectives rather than profit"
                 },
                 "publicBenefitCorporation": {
