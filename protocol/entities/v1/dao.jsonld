@@ -14,11 +14,8 @@
                 "cooperative": {
                     "description": "A DAO operating as a cooperative, owned and managed by its members for mutual benefit"
                 },
-                "enterprise": {
-                    "description": "A large-scale business DAO focused on operational efficiency"
-                },
-                "forProfit": {
-                    "description": "A business-oriented DAO with profit-driven objectives"
+                "company": {
+                    "description": "A legally registered business entity that operates for profit"
                 },
                 "hybridOrganisation": {
                     "description": "A DAO combining elements of profit and non-profit structures for diversified objectives"
@@ -40,9 +37,6 @@
                 }
             }
         },
-        "candidate": {
-            "description": "A DAO operating as a candidate in a competitive or electoral process"
-        },
         "chain": {
             "description": "A DAO managing or operating a blockchain network",
             "types": {
@@ -51,76 +45,29 @@
                 }
             }
         },
-        "citizen": {
-            "description": "A DAO representing or organizing citizens for governance or community projects"
-        },
         "community": {
             "description": "A DAO centered around a specific community for collective action or resource sharing"
         },
         "developer": {
-            "description": "A DAO supporting software developers and technical projects",
-            "types": {
-                "hackathon": {
-                    "description": "A DAO organizing and managing hackathons for innovation"
-                },
-                "innovation": {
-                    "description": "A DAO fostering technological innovation"
-                }
-            }
-        },
-        "developmentAgency": {
-            "description": "A DAO focused on development projects and infrastructure building"
-        },
-        "friendship": {
-            "description": "A DAO formed to strengthen social bonds and mutual support among members"
+            "description": "A DAO supporting software developers and technical projects"
         },
         "funding": {
             "description": "A DAO dedicated to allocating and managing funds for various purposes"
         },
-        "index": {
-            "description": "A DAO focused on indexing and organizing information or data",
-            "types": {
-                "contentIndexing": {
-                    "description": "A DAO for organizing and indexing content"
-                },
-                "dataIndexing": {
-                    "description": "A DAO that indexes blockchain data for accessibility"
-                }
-            }
-        },
         "investment": {
-            "description": "A DAO focused on managing investments and funding opportunities",
-            "types": {
-                "realEstateInvestment": {
-                    "description": "A DAO investing in real estate projects"
-                },
-                "ventureCapital": {
-                    "description": "A DAO for funding startups and early-stage companies"
-                }
-            }
+            "description": "A DAO focused on managing investments and funding opportunities"
         },
         "marketRelayer": {
-            "description": "A DAO facilitating market transactions and providing liquidity",
-            "types": {
-                "AMMRelayer": {
-                    "description": "A DAO operating automated market makers (AMMs)"
-                },
-                "orderBook": {
-                    "description": "A DAO managing decentralized order books"
-                }
-            }
+            "description": "A DAO facilitating market transactions and providing liquidity"
+        },
+        "marketPlace": {
+            "description": "A DAO that governs a decentralized marketplace, enabling peer-to-peer exchange of goods, services, or digital assets.",
         },
         "product": {
             "description": "A DAO focused on the development, management, and governance of a particular product or set of products"
         },
         "research": {
             "description": "A DAO focused on conducting and supporting research activities"
-        },
-        "sensorNetwork": {
-            "description": "A DAO managing and utilizing sensor networks for data collection and analysis"
-        },
-        "taskforce": {
-            "description": "A DAO assembled to address specific tasks or challenges"
         }
     }
 }
