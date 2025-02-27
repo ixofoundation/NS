@@ -1,7 +1,7 @@
 {
     "@context": [
-        "https://w3id.org/ixo/context/v1",
         {
+            "asset": "https://w3id.org/asset",
             "type": "@type",
             "@id": "@type",
             "@version": 1.1
@@ -10,6 +10,9 @@
     "asset": {
         "coin": {
             "description": "A digital or physical currency used as a medium of exchange, including cryptocurrencies"
+        },
+        "collection": {
+            "description": "A curated group of related assets organized under a common theme or purpose"
         },
         "device": {
             "description": "A physical or virtual tool or equipment used to perform specific tasks or functions"
