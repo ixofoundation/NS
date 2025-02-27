@@ -9,21 +9,18 @@
     ],
     "asset": {
         "coin": {
-            "description": "A digital or physical currency used as a medium of exchange, including cryptocurrencies"
+            "description": "A digital currency used as a medium of exchange, specifically referring to cryptocurrencies and stablecoins"
         },
         "collection": {
-            "description": "A curated group of related assets organized under a common theme or purpose"
+            "description": "A curated group of related assets organized under a common theme, properties, or purpose"
         },
-        "device": {
-            "description": "A physical or virtual tool or equipment used to perform specific tasks or functions"
-        },
+        "dePIN": {
+            "description": "A decentralized Physical Infrastructure Network that provides real-world services or resources through tokenized incentive mechanisms"
+        }, 
         "impactCredit": {
             "description": "A unit representing verified environmental or social impact, such as carbon sequestration or community development outcomes"
         },
-        "learnership": {
-            "description": "An asset representing a structured learning program that combines theoretical study with practical workplace experience"
-        },
-        "membershipAsset": {
+        "membership": {
             "description": "An asset signifying membership rights or privileges within a group, organization, or service"
         }
     }
