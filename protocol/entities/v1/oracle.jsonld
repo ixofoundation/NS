@@ -1,7 +1,7 @@
 {
     "@context": [
-        "https://w3id.org/ixo/context/v1",
         {
+            "oracle": "https://w3id.org/oracle",
             "type": "@type",
             "@id": "@type",
             "@version": 1.1
@@ -23,7 +23,7 @@
         "performanceMonitoring": {
             "description": "Tracks project performance in real-time, providing feedback and analytics"
         },
-        "personalisation": {
+        "personalization": {
             "description": "Tailors interactions and recommendations to individual users, enhancing user experience"
         },
         "planning": {
@@ -50,7 +50,7 @@
         "problemDetectionAndResolution": {
             "description": "Monitors systems for potential issues, enabling early detection and resolution"
         },
-        "processOptimisation": {
+        "processOptimization": {
             "description": "Enhances operational efficiency by automating tasks and streamlining workflows"
         },
         "profiling": {
@@ -58,9 +58,6 @@
         },
         "proofing": {
             "description": "Ensures data integrity and authenticity, validating claims and outcomes for transparent impact reporting",
-            "zKProof": {
-                "description": "Zero-Knowledge-Proofs cryptographic techniques enabling one party to prove the truth of a statement to another without disclosing any additional information"
-            }
         },
         "protocolAdherence": {
             "description": "Ensures compliance with predefined protocols for consistency and reliability"
