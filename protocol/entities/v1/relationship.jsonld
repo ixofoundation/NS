@@ -8,42 +8,86 @@
         }
     ],
     "relationship": {
-        "asset": {
-            "description": "An item or resource of value that is owned or controlled."
+        "alignsWith": {
+            "description": "Represents a shared alignment of objectives between domains"
         },
-        "blockchainAccount": {
-            "description": "A digital account or wallet associated with a blockchain network."
+        "authorities": {
+            "description": "Specifies the domain that provides authority or permission for the target"
         },
-        "claimCollection": {
-            "description": "A collection of claims or assertions made about an entity."
+        "beneficiary": {
+            "description": "Specifies the domain that benefits from funding or resources"
         },
-        "collection": {
-            "description": "A group of related items or entities gathered together."
+        "certifies": {
+            "description": "Denotes that a domain provides certification for the target"
         },
-        "dao": {
-            "description": "A Decentralized Autonomous Organization operating through smart contracts."
+        "consumes": {
+            "description": "Indicates that a Project or Protocol uses data or services from the target (an Oracle or another Protocol)"
         },
-        "deed": {
-            "description": "A legal document representing ownership or an agreement."
+        "defines": {
+            "description": "Specifies that the domain establishes parameters for the target"
         },
-        "group": {
-            "description": "An aggregation of individuals or entities with a common purpose."
+        "delegates": {
+            "description": "Assigns governance responsibilities to another domain"
         },
-        "individualAccount": {
-            "description": "A personal account for managing digital or financial resources."
+        "dependsOn": {
+            "description": "Indicates that a domain's functionality is reliant on another's"
         },
-        "investment": {
-            "description": "An allocation of resources, typically capital, in expectation of a future return."
+        "deploys": {
+            "description": "The origin domain (Protocol or DAO) deploys or launches the target (an Asset, such as a token, or an Oracle service)"
         },
-        "oracle": {
-            "description": "A service providing external data to smart contracts or blockchain systems."
+        "documents": {
+            "description": "Denotes that a Deed documents legal/contractual details of the target entity"
         },
-        "project": {
-            "description": "A planned undertaking or initiative to achieve specific goals."
+        "earns": {
+            "description": "Indicates revenue or yield derived from the target domain"
         },
-        "protocol": {
-            "description": "A system of rules or procedures for transmitting data or interacting with systems."
-        }
+        "executes": {
+            "description": "Indicates a domain carrying out operational tasks on the target"
+        },
+        "funds": {
+            "description": "Denotes a controlling stake or ownership of the target domain"
+        },
+        "governs": {
+            "description": "Specifies that a domain (DAO or Project) manages the operations or lifecycle of a target domain (another Project or Asset)"
+        },
+        "implements": {
+            "description": "Indicates a domain applying a predefined plan on the target"
+        },
+        "insures": {
+            "description": "Specifies that the entity provides risk coverage for the target domain"
+        },
+        "interactsWith": {
+            "description": "Signifies a bidirectional operational dependency between domains"
+        },
+        "investsIn": {
+            "description": "Specifies a capital investment in the target domain"
+        },
+        "issues": {
+            "description": "Specifies a domain issuing tokens or rights to the target"
+        },
+        "manages": {
+            "description": "Specifies that a domain manages the operations or lifecycle of a target"
+        },
+        "monitors": {
+            "description": "Indicates that a domain tracks the progress or performance of a target domain"
+        },
+        "operates": {
+            "description": "Indicates ongoing operation of the target domain by the origin"
+        },
+        "owns": {
+            "description": "Denotes a controlling stake or ownership of the target domain"
+        },
+        "references": {
+            "description": "Signifies that the originating domain references data/artifacts from the target"
+        },
+        "secures": {
+            "description": "Indicates that the Protocol provides security guarantees for the target"
+        },
+        "submits": {
+            "description": "Denotes a domain submitting data or proposals to a target"
+        },
+        "verifies": {
+            "description": "Specifies the domain verifying authenticity of the target"
         }
     }
 }
