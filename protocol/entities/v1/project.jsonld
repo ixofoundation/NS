@@ -35,6 +35,9 @@
         "identity": {
             "description": "A project related to establishing, managing, or verifying individual or organizational identities"
         },
+        "impact": {
+            "description": "A project designed to create, measure, and verify positive social or environmental outcomes with tangible results"
+        },
         "immuneCell": {
             "description": "A project involving the study, application, or enhancement of immune cell functions and interactions"
         },
@@ -46,6 +49,9 @@
                 },
                 "solarPV": {
                     "description": "A project focusing on the implementation and use of solar photovoltaic systems to generate clean and renewable energy"
+                },
+                "mobility": {
+                    "description": "A project focused on the development, implementation, or promotion of sustainable mobility solutions"
                 }
             }
         },
@@ -54,9 +60,6 @@
         },
         "relayer": {
             "description": "A project focused on facilitating communication or transactions between different systems or networks"
-        },
-        "renewableEnergy": {
-            "description": "A project dedicated to the development, implementation, or promotion of sustainable energy sources"
         },
         "workPlacement": {
             "description": "A project providing practical work experiences to individuals in professional environments"
