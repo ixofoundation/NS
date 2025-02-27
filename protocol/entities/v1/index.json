@@ -11,9 +11,6 @@
         "asset": {
             "description": "An item or resource of value that is owned or controlled."
         },
-       "collection": {
-            "description": "A group of related items or entities gathered together."
-        },
         "dao": {
             "description": "A Decentralized Autonomous Organization operating through smart contracts."
         },
