@@ -14,7 +14,7 @@
         "collection": {
             "description": "A collection of digital assets, such as NFTs, that are grouped together for a specific purpose or theme."
         },
-        "dataAsset": {
+        "data": {
             "description": "A digital representation of data, such as financial data, scientific data, or other types of data that can be stored and shared in a decentralized manner."
         },
         "dePIN": {
