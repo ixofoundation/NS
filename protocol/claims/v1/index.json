@@ -11,7 +11,7 @@
         "description": "A digital representation of a verifiable claim that can be cryptographically verified",
         "types": {
             "accreditation": {  
-                "description": "A claim verifying the official recognition, authorization, or certification status of an entity or process"
+                "description": "A claim verifying the official recognition, authorization, or certification status of a domain or process"
             },
             "compliance": {
                 "description": "A claim attesting to the adherence to specific regulatory, legal, or protocol requirements"
@@ -29,7 +29,7 @@
                 "description": "A claim documenting formal disagreements and their resolution processes"
             },
             "identity": {
-                "description": "A claim verifying the authentic identity attributes of an individual, organization, or entity"
+                "description": "A claim verifying the authentic identity attributes of an individual, organization, or domain"
             },
             "impact": {
                 "description": "A claim measuring and validating the social or environmental effects of specific actions",
