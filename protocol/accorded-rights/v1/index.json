@@ -41,6 +41,7 @@
         "access": {
             "description": "Access resources or systems."
         }
+      }
     },
     "legal": {
       "description": "Display legal documents."
