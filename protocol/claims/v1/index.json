@@ -8,7 +8,6 @@
         }
     ],
     "verifiableClaim": {
-        "description": "A digital representation of a verifiable claim that can be cryptographically verified",
         "types": {
             "accreditation": {  
                 "description": "A claim verifying the official recognition, authorization, or certification status of a domain or process"
