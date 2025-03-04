@@ -8,7 +8,6 @@
     }
   ],
     "country": {
-      "types": {
         "Global": { 
           "description": "AA" 
         },
@@ -761,5 +760,4 @@
         }
       }
     }
-  }
-}
+
