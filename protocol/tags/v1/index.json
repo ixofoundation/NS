@@ -271,7 +271,8 @@
         }
     },
     "protocolType": {
-        "taskType": {
+        "task": {
+            "description": "A protocol defining structured tasks to be performed by participants",
             "types": {
                 "educationalFacilitator": {
                     "description": "A task focused on facilitating learning experiences, knowledge transfer, or educational activities"
@@ -284,7 +285,8 @@
                 }
             }
         },
-        "verifiableClaimType": {
+        "verifiableClaim": {
+            "description": "A protocol for creating and verifying claims about actions, outcomes, or attributes",
             "types": {
                 "accreditation": {  
                     "description": "A claim verifying the official recognition, authorization, or certification status of an entity or process"
@@ -363,7 +365,8 @@
                 }
             }
         },
-        "verifiableCredentialType": {
+        "verifiableCredential": {
+            "description": "A protocol for issuing and verifying digital credentials that attest to qualifications or attributes",
             "types": {
                 "academic": {
                     "description": "A credential validating academic qualifications, degrees, or educational achievements"
