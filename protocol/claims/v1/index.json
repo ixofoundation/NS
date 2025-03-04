@@ -8,7 +8,6 @@
         }
     ],
     "verifiableClaim": {
-        "types": {
             "accreditation": {  
                 "description": "A claim verifying the official recognition, authorization, or certification status of a domain or process"
             },
@@ -84,6 +83,6 @@
             "useOfFunds": {
                 "description": "A claim documenting the allocation and utilization of financial resources in accordance with specified purposes"
             }
-        }
+        
     }
 }
