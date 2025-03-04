@@ -14,7 +14,7 @@
         "collection": {
             "description": "A collection of digital assets, such as NFTs, that are grouped together for a specific purpose or theme."
         },
-        "data": {
+        "dataAsset": {
             "description": "A digital representation of data, such as financial data, scientific data, or other types of data that can be stored and shared in a decentralized manner."
         },
         "dePIN": {
@@ -268,6 +268,130 @@
         },
         "workPlacement": {
             "description": "A project providing practical work experiences to individuals in professional environments"
+        }
+    },
+    "protocolType": {
+        "taskType": {
+            "educationalFacilitator": {
+                "description": "A task focused on facilitating learning experiences, knowledge transfer, or educational activities"
+            },
+            "employmentReadiness": {
+                "description": "A task designed to prepare individuals for employment opportunities through skill development and training"
+            },
+            "environmentalStewardship": {
+                "description": "A task dedicated to the protection, conservation, or sustainable management of natural resources and ecosystems"
+            }
+        },
+        "verifiableClaimType": {
+            "accreditation": {  
+                "description": "A claim verifying the official recognition, authorization, or certification status of an entity or process"
+            },
+            "compliance": {
+                "description": "A claim attesting to the adherence to specific regulatory, legal, or protocol requirements"
+            },
+            "contribution": {
+                "description": "A claim documenting verified contributions to projects, initiatives, or common objectives"
+            },
+            "credential": {
+                "description": "A claim establishing the authenticity and validity of qualifications, permissions, or rights"
+            },
+            "credentialAudit": {
+                "description": "A claim documenting the systematic examination and verification of credential issuance and management processes"
+            },
+            "dispute": {
+                "description": "A claim documenting formal disagreements and their resolution processes"
+            },
+            "identity": {
+                "description": "A claim verifying the authentic identity attributes of an individual, organization, or entity"
+            },
+            "impact": {
+                "description": "A claim measuring and validating the social or environmental effects of specific actions",
+                "types": {
+                    "verifiedCleanCooking": {
+                        "description": "A claim validating the implementation and impact of verified clean cooking solutions"
+                    },
+                    "verifiedEmissionsReduction": {
+                        "description": "A claim certifying the verified reduction of greenhouse gas emissions through specific projects"
+                    }
+                }
+            },
+            "investment": {
+                "description": "A claim documenting investment activities, commitments, or outcomes in impact projects"
+            },
+            "invoice": {
+                "description": "A claim validating the authenticity and details of financial transactions or service provisions"
+            },
+            "offset": {
+                "description": "A claim validating the compensation or neutralization of environmental impacts through verified actions"
+            },
+            "outcome": {
+                "description": "A claim documenting measured results or impacts of specific actions or initiatives",
+                "types": {
+                    "carbonEmissionReduction": {
+                        "description": "A claim documenting verified reductions in carbon emissions through specific interventions"
+                    },
+                    "cleanCookingClaim": {
+                        "description": "A claim verifying the implementation and impact of clean cooking solutions"
+                    }
+                }
+            },
+            "ownership": {
+                "description": "A claim validating the rightful possession or control of assets, resources, or rights"
+            },
+            "procurement": {
+                "description": "A claim documenting the acquisition process and compliance with procurement standards",
+                "types": {
+                    "fuelPurchase": {
+                        "description": "A claim verifying the purchase and sourcing of fuel products according to specified standards"
+                    }
+                }
+            },
+            "provenance": {
+                "description": "A claim establishing the origin, history, and chain of custody of assets or resources"
+            },
+            "service": {
+                "description": "A claim validating the delivery, quality, or completion of specific services"
+            },
+            "subscription": {
+                "description": "A claim validating the active subscription status and associated rights of a participant"
+            },
+            "useOfFunds": {
+                "description": "A claim documenting the allocation and utilization of financial resources in accordance with specified purposes"
+            }
+        },
+        "verifiableCredentialType": {
+            "types": {
+                "academic": {
+                    "description": "A credential validating academic qualifications, degrees, or educational achievements"
+                },
+                "attendance": {
+                    "description": "A credential confirming participation or presence at an event, meeting, or gathering"
+                },
+                "certification": {
+                    "description": "A credential validating professional certifications or specialized training completions"
+                },
+                "investorCredential": {
+                    "description": "A credential validating an entity's status as an accredited or qualified investor"
+                },
+                "kycamlAttestation": {
+                    "description": "A credential confirming completion of Know Your Customer and Anti-Money Laundering verification processes"
+                },
+                "license": {
+                    "description": "A credential validating official permissions to perform specific activities or services"
+                },
+                "membership": {
+                    "description": "A credential validating affiliation with organizations, communities, or professional bodies"
+                },
+                "professional": {
+                    "description": "A credential validating professional qualifications, experience, or expertise in specific domains"
+                },
+                "verifiedCleanCooking": {
+                    "description": "A credential validating the implementation and impact of verified clean cooking solutions"
+                },
+                "verifiedEmissionsReduction": {
+                    "description": "A credential certifying the verified reduction of greenhouse gas emissions through specific projects"
+                }
+            }
         }
     }
 }
