@@ -1,7 +1,7 @@
 {
     "@context": [
+        "https://w3id.org/ixo/context/v1",
         {
-            "verificationMethod": "https://w3c.github.io/dpv/2.0/dpv/#CryptographicMethods",
             "type": "@type",
             "@id": "@type",
             "@version": 1.1
