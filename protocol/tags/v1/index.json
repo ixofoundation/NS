@@ -403,8 +403,17 @@
     "systemType": {
       "description": "A protocol for creating a cognitive digital twin system",
       "types": {
-        "cognitiveDigitalTwin": {
-          "description": "A protocol for creating a cognitive digital twin system"
+        "mecs": {
+          "description": "A protocol for creating a Modern Energy Cooking Services system cognitive digital twin system"
+        },
+        "civicActionProject": {
+          "description": "A protocol for creating a Civic Action Projects and related domains"
+        },
+        "solarPV": {
+          "description": "A protocol for creating a Solar Photovoltaic system cognitive digital twin system"
+        },
+        "mobility": {
+          "description": "A protocol for creating a Mobility system cognitive digital twin system"
         }
       }
     }
