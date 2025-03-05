@@ -1,1 +1,75 @@
-{}
+{
+    "@context": [
+        "https://w3id.org/ixo/context/v1",
+        {
+            "type": "@type",
+            "@id": "@type",
+            "@version": 1.1
+        }
+    ],
+    "linkedResource": {
+      "bidTemplate": {
+        "description": "An application to participate in or contribute to another domain"
+      },
+      "claimSchema": {
+        "description": "A structured framework defining the format and content of claims."
+      },
+      "credentialSchema": {
+        "description": "A structured framework defining the format and content of credentials."
+      },
+      "document": {
+        "description": "A file composed primarily of text."
+      },
+      "domainSettingsTemplate": {
+        "description": "A predefined set of forms used to create and update domain settings"
+      },
+      "image": {
+        "description": "An image of the item. This can be a URL or a fully described ImageObject.",
+        "types": {
+          "icon": {
+            "description": "A small, simplified visual representation used for navigation, buttons, or status indicators."
+          },
+          "logo": {
+            "description": "A distinctive graphic mark or symbol used to identify a brand, organization, or project."
+          },
+          "profileImage": {
+            "description": "A representative image displayed on domain cards to provide visual identification of the domain."
+          },
+          "headerImage": {
+            "description": "A banner or hero image displayed at the top of the domain overview page to provide visual context."
+          }
+        }
+      },
+      "legalAgreement": {
+        "description": "A legally binding agreement"
+      },
+      "lottie": {
+        "description": "Image or animation file"
+      },
+      "projectCredential": {
+        "description": "A digital certificate attesting to specific facts or achievements about a project."
+      },
+      "proposalAction": {
+        "description": "A description of an action that is executed if the proposal is supported."
+      },
+      "surveyTemplate": {
+        "description": "A predefined set of questions or forms used to collect data."
+      },
+      "text": {
+        "description": "Text."
+      },
+      "tokenMetadata": {
+        "description": "Properties of the token"
+      },
+      "verificationMethods": {
+        "description": "Methods used to authenticate or authorize interactions"
+      },
+      "verifiableCredential": {
+        "description": "A digital certification or qualification, issued by an authoritative body, and utilizing cryptographic proofs for verification."
+      },
+      "webDashboard": {
+        "description": "Information displayed in Graphic User Interfaces of Web Client applications"
+      }
+    }
+  }
+  
