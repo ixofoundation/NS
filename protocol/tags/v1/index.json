@@ -117,7 +117,26 @@
       "description": "A deed representing a formal expression of willingness to provide or do something"
     },
     "proposal": {
-      "description": "A deed that outlines a suggested plan or action for consideration and approval"
+      "description": "A deed that outlines a suggested plan or action for consideration and approval",
+      "types": {
+        "membership": {
+          "description": "A proposal for managing members"
+        },
+        "governance": {
+          "description": "A proposal for managing domain governance"
+        },
+        "smartContract": {
+          "description": "A proposal for managing domain smart contracts"
+        },
+        "financial": {
+          "description": "A proposal for managing domain financial resources"
+        },
+        "staking": {
+          "description": "A proposal for managing domain staking"
+        },
+        "domain": {
+          "description": "A proposal for creating and managing domains"
+        }
     },
     "request": {
       "description": "A deed detailing an appeal or demand for something to be provided or done",
