@@ -137,6 +137,7 @@
         "domain": {
           "description": "A proposal for creating and managing domains"
         }
+      }
     },
     "request": {
       "description": "A deed detailing an appeal or demand for something to be provided or done",
