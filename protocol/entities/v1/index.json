@@ -168,6 +168,9 @@
                 },
                 "protocol/project": {
                     "description": "A protocol for creating project domains and defining the domains properties"
+                },
+                "protocol/system": {
+                    "description": "A protocol for creating a cognitive digital twin system"
                 }
             }
         }
